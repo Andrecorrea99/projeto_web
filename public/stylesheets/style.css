@@ -8,4 +8,6 @@
     margin-bottom: 20px;
     color: blue;
 }
-
+p {
+    white-space: nowrap;
+}
