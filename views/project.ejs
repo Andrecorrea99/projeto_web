@@ -9,11 +9,10 @@
     
     <div class="container">
       <div class="row">
-        <% posts.forEach((post) => { %>
-          <%- include('post_card', { dado: post }); -%>
-        <% }); %>
-      </div>
-    </div>
-
-  </body>
-</html>
+        
+        <div class="post-detail">
+            <img src="/images/<%= project.image %>" />
+            <h1><%= project.title %></h1>
+            <p><%= project.body %></p>
+        </div>
+        
